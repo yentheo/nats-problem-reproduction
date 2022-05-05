@@ -28,7 +28,7 @@ for (var j = 0; j < 100; j++)
     {
         c.Publish(subject, new byte[0]);
         // Task.Delay(1500).Wait();
-        jsmc.PurgeStream("test", new PurgeOptionsBuilder().WithSubject(subject).Build());
+        // jsmc.PurgeStream("test", new PurgeOptionsBuilder().WithSubject(subject).Build());
     });
 }
 i++;
